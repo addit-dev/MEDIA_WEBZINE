@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+@font-face {
+	font-family: 'NanumBarunGothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+	src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+
+
+
+
+/* 초기화 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, select, textarea,
+fieldset, form, label, legend, fieldset,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Noto Sans KR", sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 1;
+	list-style: none;
+	text-decoration: none;
+	border-collapse:collapse;
+}
+
+p {margin:0;padding:0;word-break:break-all}
+hr {display:none}
+pre {overflow-x:scroll;font-size:1.1em}
+a {color:#000;text-decoration:none}
+a:link, a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+
+*, :after, :before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+img{vertical-align: middle}
+input,select,button,textarea{padding: 0;appearance:none;-webkit-appearance:none;-moz-appearance:none}
+button{border: 0;background: transparent;box-shadow: none;outline:0;}
+input[type="submit"], input[type="button"], input[type="reset"], button {cursor:pointer}
+
+input[type="text"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { /* WebKit browsers */ color:transparent}
+input[type="text"]:focus:-moz-placeholder, textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:transparent}
+input[type="text"]:focus::-moz-placeholder, textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */ color:transparent}
+input[type="text"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color:transparent}
+select::-ms-expand {display: none;}
+
+/* library */
+.hidden{overflow: hidden;position: absolute;width: 1px;height: 1px;margin: 0;font-size: 0;line-height: 0;clip: rect(0,0,0,0)}
+.lt{float:left}
+.rt{float:right}
+.tal{text-align:left !important}
+.tac{text-align:center !important}
+.tar{text-align:right !important}
+.taj{text-align:justify !important}
+.vam{vertical-align:middle !important}
+.vat{vertical-align:top !important}
+.vab{vertical-align:bottom !important}
+.clear{clear:both;}
+.mt0{margin-top:0 !important;}
+.mt5{margin-top:5px !important;}
+.mt10{margin-top:10px !important;}
+.mt15{margin-top:15px !important;}
+.mt20{margin-top:20px !important;}
+.mt25{margin-top:25px !important;}
+.mt30{margin-top:30px !important;}
+.mt35{margin-top:35px !important;}
+.mt40{margin-top:40px !important;}
+.mt45{margin-top:45px !important;}
+.mt50{margin-top:50px !important;}
+.mt80{margin-top: 80px !important;}
+.mb40{margin-bottom: 40px !important;}
+.sz11{font-size: 11px !important;}
