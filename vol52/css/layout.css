@@ -106,7 +106,10 @@
 	.sub_visual02_03{background:url('../img/sub_visual02_03.jpg') no-repeat center center}
 	.sub_visual02_04{background:url('../img/sub_visual02_04.jpg') no-repeat center center}
 	.sub_visual03_01{background:url('../img/sub_visual03_01.jpg') no-repeat center center/cover}
+	.sub_visual03_02{background:url('../img/sub_visual03_02.jpg') no-repeat center center/cover}
+	.sub_visual03_03{background:url('../img/sub_visual03_03.jpg') no-repeat center center/cover}
 	.sub_visual04_01{background:url('../img/sub_visual04_01.jpg') no-repeat center center}
+	.sub_visual05_01{background:url('../img/sub_visual05_01.jpg') no-repeat center center}
 	.sub_contents{padding:100px 0 100px;}
 	.sub_contents h2{text-align:center;}
 	.sub_contents h2 span{display:block;font-size:30px;color:#222;font-weight:400;;}
